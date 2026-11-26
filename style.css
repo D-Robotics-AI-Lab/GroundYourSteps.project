@@ -43,7 +43,7 @@ html { scroll-padding-top: 60px; }
 .nav-brand { font-size: 19px; font-weight: 700; }
 .nav-links { display: flex; flex-wrap: wrap; gap: 2px 18px; font-size: 15px; font-weight: 600; }
 .nav-links a { padding-block: 5px; }
-.publication-actions { display: flex; justify-content: center; align-items: stretch; gap: 8px; }
+.publication-actions { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 8px; }
 .publication { text-align: center; font-family: var(--display); }
 h1 { margin-bottom: 24px; font-size: 40px; font-weight: 600; line-height: 1.125; text-wrap: balance; }
 h1 span { display: block; }
@@ -65,8 +65,8 @@ sup { color: #363636; font-size: .68em; line-height: 0; font-weight: 400; }
 }
 .affiliation-logos img { display: block; width: 100%; height: auto; }
 .affiliation-logos .casia-logo { height: auto; aspect-ratio: 5 / 1; object-fit: cover; }
-.code { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 7px 20px; border-radius: 999px; color: white; background: #363636; font-size: 16px; text-decoration: none; }
-.code:hover { background: #292929; }
+.publication-link { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 7px 20px; border-radius: 999px; color: white; background: #363636; font-size: 16px; text-decoration: none; }
+.publication-link:hover { background: #292929; }
 a:focus-visible { outline: 3px solid #3273dc; outline-offset: 4px; }
 .paper > section { font-size: 1.125rem; }
 .paper > section:nth-of-type(odd) { background: #f5f5f5; }
